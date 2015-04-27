@@ -25,22 +25,10 @@ projects[] = "xmlsitemap"
 projects[] = "adminimal_theme"
 projects[themes][type] = "theme"
 projects[themes][download][type] = "git"
-projects[themes][download][url] = "u12233@thor.vps-private.net:megateh.git"
-projects[themes][download][branch] = "devel"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-projects[megatehniks][download][type] = ""
-projects[megatehniks][download][url] = ""
-projects[megatehniks][type] = "theme"
+projects[themes][download][url] = "git://git.drupal.org/project/adminimal_theme.git"
+projects[themes][download][branch] = "7.x-1.x" 
 
 ; Libraries
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[flipclock][download][type] = ""
-libraries[flipclock][download][url] = ""
-libraries[flipclock][directory_name] = "flipclock"
-libraries[flipclock][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
