@@ -7,6 +7,7 @@ projects[] = "drupal"
 projects[] = "backup_migrate"
 projects[] = "ctools"
 projects[] = "colorbox"
+projects[] = "ckeditor"
 projects[] = "devel"
 projects[] = "features"
 projects[] = "globalredirect"
@@ -41,7 +42,6 @@ libraries[backbone][type] = "library"
 ; and url is the url of the download.
 libraries[lessphp][download][type] = "git"
 libraries[lessphp][download][url] = "https://github.com/oyejorge/less.php.git"
-libraries[lessphp][download][tag] = "1.7.0.3" 
 libraries[lessphp][directory_name] = "lessphp"
 libraries[lessphp][type] = "library"
 
@@ -51,14 +51,6 @@ libraries[modernizr][download][type] = "file"
 libraries[modernizr][download][url] = "http://stage.megatehniks.com/sites/all/libraries/modernizr/modernizr-min.js"
 libraries[modernizr][directory_name] = "modernizr"
 libraries[modernizr][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
-libraries[colorbox][download][tag] = "1.7.0.3" 
-libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
