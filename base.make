@@ -20,6 +20,8 @@ projects[] = "module_filter"
 projects[] = "navbar"
 projects[] = "strongarm"
 projects[] = "token"
+projects[] = "transliteration"
+projects[] = "pathauto"
 projects[] = "views"
 projects[] = "xmlsitemap"
 ; Themes
