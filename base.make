@@ -24,6 +24,7 @@ projects[] = "transliteration"
 projects[] = "pathauto"
 projects[] = "views"
 projects[] = "xmlsitemap"
+projects[] = "diff"
 ; Themes
 projects[] = "adminimal_theme"
 projects[themes][type] = "theme"
